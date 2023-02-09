@@ -34,4 +34,13 @@ public class Defensive extends Player{
     public void setSacks(int sacks) {
         this.sacks = sacks;
     }
+
+    @Override
+    public String toString() {
+        return "Defensive{" +
+                "interceptions=" + interceptions +
+                ", tackles=" + tackles +
+                ", sacks=" + sacks +
+                '}';
+    }
 }

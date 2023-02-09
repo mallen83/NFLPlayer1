@@ -18,6 +18,7 @@ public abstract class Player {
     }
 
     public Player() {
+        System.out.println("Patrick Mahomes is the best quaterback in the league. He attended Texas Tech and has 7 years of experience in the NFL.");
     }
 
     public String getFirstName() {
@@ -66,5 +67,16 @@ public abstract class Player {
 
     public void setExperience(int experience) {
         this.experience = experience;
+    }
+    @Override
+    public String toString() {
+        return "Player{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", college='" + college + '\'' +
+                ", position='" + position + '\'' +
+                ", birthdate='" + birthdate + '\'' +
+                ", experience=" + experience +
+                '}';
     }
 }

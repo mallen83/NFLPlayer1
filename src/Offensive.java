@@ -45,4 +45,14 @@ public class Offensive extends Player {
     public void setTouchdowns(int touchdowns) {
         this.touchdowns = touchdowns;
     }
+
+    @Override
+    public String toString() {
+        return "Offensive{" +
+                "passingYards=" + passingYards +
+                ", rushingYards=" + rushingYards +
+                ", receivingYards=" + receivingYards +
+                ", touchdowns=" + touchdowns +
+                '}';
+    }
 }

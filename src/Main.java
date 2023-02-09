@@ -15,13 +15,12 @@ public class Main {
         //Random string generator in java
         Random random = new Random();
 
-        System.out.println(player.getFirstName() + " " + player.getLastName() + " " + player.getCollege() + " " + " " + player.getExperience() + " " + "experience in the NFL.");
-        System.out.println(player1.getFirstName() + " " + player1.getPosition());
-        System.out.println(offensive.getFirstName() + " " + offensive.getLastName() + " " + offensive.getTouchdowns() + " " + offensive.getRushingYards());
-        System.out.println(offensive1.getCollege() + " " + offensive1.getPosition());
-        System.out.println(defensive.getSacks());
-        System.out.println(defensive1.getFirstName() + " " + defensive1.getExperience() + " " + defensive1.getInterceptions());
-        System.out.println(random.nextInt(offensive1.getRushingYards()) + " " + random.nextInt(defensive1.getTackles()));
+        System.out.println(player + " " + "experience in the NFL.");
+        System.out.println(offensive);
+        System.out.println(offensive1);
+        System.out.println(defensive.getFirstName() + " " + defensive.getLastName() + " " + defensive.getCollege() + " " + " " + "" + defensive);
+        System.out.println(defensive1);
+        //System.out.println(random.nextInt(offensive1.getRushingYards()) + " " + random.nextInt(defensive1.getTackles()));
 
 
     }
