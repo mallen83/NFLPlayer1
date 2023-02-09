@@ -1,5 +1,6 @@
-public class Players {
+public abstract class Player {
 
+ //update my player class
     private String firstName;
     private String lastName;
     private String college;
@@ -7,7 +8,7 @@ public class Players {
     private String birthdate;
     private int experience;
 
-    public Players(String firstName, String lastName, String college, String position, String birthdate, int experience) {
+    public Player(String firstName, String lastName, String college, String position, String birthdate, int experience) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.college = college;
@@ -16,7 +17,7 @@ public class Players {
         this.experience = experience;
     }
 
-    public Players() {
+    public Player() {
     }
 
     public String getFirstName() {

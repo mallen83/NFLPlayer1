@@ -1,17 +1,14 @@
-public class Defensive extends Players{
+public class Defensive extends Player{
 
-    int interceptions;
-    int tackles;
-    int sacks;
+    private int interceptions;
+    private int tackles;
+    private int sacks;
 
     public Defensive(String firstName, String lastName, String college, String position, String birthdate, int experience, int interceptions, int tackles, int sacks) {
         super(firstName, lastName, college, position, birthdate, experience);
         this.interceptions = interceptions;
         this.tackles = tackles;
         this.sacks = sacks;
-    }
-
-    public Defensive() {
     }
 
     public int getInterceptions() {

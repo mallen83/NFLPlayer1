@@ -1,9 +1,10 @@
-public class Offensive extends Players {
+public class Offensive extends Player {
 
-    int passingYards;
-    int rushingYards;
-    int receivingYards;
-    int touchdowns;
+    //make these privates
+    private int passingYards;
+    private int rushingYards;
+    private int receivingYards;
+    private int touchdowns;
 
     public Offensive(String firstName, String lastName, String college, String position, String birthdate, int experience, int passingYards, int rushingYards, int receivingYards, int touchdowns) {
         super(firstName, lastName, college, position, birthdate, experience);
@@ -11,9 +12,6 @@ public class Offensive extends Players {
         this.rushingYards = rushingYards;
         this.receivingYards = receivingYards;
         this.touchdowns = touchdowns;
-    }
-
-    public Offensive() {
     }
 
     public int getPassingYards() {
