@@ -5,8 +5,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Player player = new Player("Matt","Jones","Arizona St.","Safety","10/2/1999", 7) {};
         Player player1 = new Player() {};
+        Player player = new Player("Matt","Jones","Arizona St.","Safety","10/2/1999", 7) {};
         Offensive offensive = new Offensive("Blue", "Johnson","UCLA","Quaterback","2/17/2021", 2, 4234, 760,22,35);
         Offensive offensive1 = new Offensive("August", "Clayton","Florida St.","Running back","7/22/1999", 6, 77, 1978,762,17);
         Defensive defensive = new Defensive("June","Allen","Cumberland","Free Safety","11/7/2000",3,4,86,2);
@@ -18,7 +18,7 @@ public class Main {
         System.out.println(player + " " + "experience in the NFL.");
         System.out.println(offensive);
         System.out.println(offensive1);
-        System.out.println(defensive.getFirstName() + " " + defensive.getLastName() + " " + defensive.getCollege() + " " + " " + "" + defensive);
+        System.out.println(defensive);
         System.out.println(defensive1);
         //System.out.println(random.nextInt(offensive1.getRushingYards()) + " " + random.nextInt(defensive1.getTackles()));
 
